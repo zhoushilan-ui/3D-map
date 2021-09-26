@@ -1,0 +1,105 @@
+{
+	"asset": {
+		"version": "1.0"
+	},
+	"geometricError": 500,
+	"root": {
+		"boundingVolume": {
+			"box": [13525432.2338608, 3663640.065364697, 0, 10, 0, 0, 0, 20, 0, 0, 0, 0]
+		},
+		"geometricError": 500,
+        "content": {
+			"uri": "data/city.b3dm"
+		},
+		"children": [
+			{
+				"boundingVolume": {
+					"box": [13524589.211357025, 3663459.747285815, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+				},
+				"geometricError": 25.0,
+				"refine": "add",
+				"content": {
+					"uri": "data/boat3.b3dm"
+				},
+				"transform": [
+					10,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					10,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					10,
+					0.0,
+					-900,
+					-100,
+					0,
+					1.0
+				]
+			}, 
+			{
+				"boundingVolume": {
+					"box": [13524589.211357025, 3663459.747285815, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+				},
+				"geometricError": 25.0,
+				"refine": "add",
+				"content": {
+					"uri": "data/boat3.b3dm"
+				},
+				"transform": [
+					20,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					20,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					20,
+					0.0,
+					-900,
+					-200,
+					0,
+					1.0
+				]
+			}, 
+			{
+				"boundingVolume": {
+					"box": [13524589.211357025, 3663459.747285815, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+				},
+				"geometricError": 10.0,
+				"refine": "add",
+				"content": {
+					"uri": "data/tree.i3dm"
+				},
+				"transform": [
+					5,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					5,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					5,
+					0.0,
+					-600,
+					0,
+					0,
+					1.0
+				]
+			}
+		],
+		"refine": "add",
+		"extData": {
+			"rotate": 13
+		}
+	}
+}

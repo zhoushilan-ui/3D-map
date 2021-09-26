@@ -1,0 +1,937 @@
+<shapes name="mxGraph.currency">
+    <!-- 箭头样式 -->
+    <shape name="Left Arrow" h="80" w="90" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="10" y="40"/>
+                <line x="80" y="40" />
+                <move x="70" y="30"/>
+                <line x="80" y="40" />
+                <move x="70" y="50"/>
+                <line x="80" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Right Arrow" h="80" w="90" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="10" y="40"/>
+                <line x="80" y="40" />
+                <move x="20" y="30"/>
+                <line x="10" y="40" />
+                <move x="20" y="50"/>
+                <line x="10" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Triangle Left Arrow" h="80" w="90" aspect="variable " strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="10" y="40"/>
+                <line x="27.32" y="50" />
+                <line x="27.32" y="30" />
+                <close />
+                <move x="27.32" y="40"/>
+                <line x="80" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Triangleg Right Arrow" h="80" w="90" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="80" y="40"/>
+                <line x="67.32" y="50" />
+                <line x="67.32" y="30" />
+                <close />
+                <move x="67.32" y="40"/>
+                <line x="10" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Diamond Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="0" y="40"/>
+                <line x="10" y="30" />
+                <line x="20" y="40" />
+                <line x="10" y="50" />
+                <close />
+                <move x="20" y="40"/>
+                <line x="80" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Diamond Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="80" y="40"/>
+                <line x="70" y="30" />
+                <line x="60" y="40" />
+                <line x="70" y="50" />
+                <close />
+                <move x="60" y="40"/>
+                <line x="10" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name= "Empty Diamond Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="0" y="40"/>
+                <line x="10" y="30" />
+                <line x="20" y="40" />
+                <line x="10" y="50" />
+                <line x="0" y="40" />
+            </path>
+            <stroke />
+            <path>
+                <move x="20" y="40"/>
+                <line x="80" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name=" Empty Diamond Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="80" y="40"/>
+                <line x="70" y="30" />
+                <line x="60" y="40" />
+                <line x="70" y="50" />
+                <close />
+            </path>
+            <stroke />
+            <path>
+                <move x="60" y="40"/>
+                <line x="10" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Oblate Diamond Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="0" y="40"/>
+                <line x="20" y="30" />
+                <line x="40" y="40" />
+                <line x="20" y="50" />
+                <close />
+                <move x="40" y="40"/>
+                <line x="80" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name=" Oblate Diamond Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="0" y="40"/>
+                <line x="20" y="30" />
+                <line x="40" y="40" />
+                <line x="20" y="50" />
+                <close />
+                <move x="40" y="40"/>
+                <line x="80" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name=" Empty Oblate Diamond Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="80" y="40"/>
+                <line x="60" y="30" />
+                <line x="40" y="40" />
+                <line x="60" y="50" />
+                <close />
+            </path>
+            <stroke />
+            <path>
+                <move x="40" y="40"/>
+                <line x="0" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name=" Empty Oblate Diamond Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="0" y="40"/>
+                <line x="20" y="30" />
+                <line x="40" y="40" />
+                <line x="20" y="50" />
+                <close />
+            </path>
+            <stroke />
+            <path>
+                <move x="40" y="40"/>
+                <line x="80" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Empty Circle Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <ellipse x="0" y="30" h="20" w="20" />
+            <stroke  />
+            <path>
+                <move x="20" y="40"/>
+                <line x="80" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Empty Circle Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <ellipse x="60" y="30" h="20" w="20" />
+            <stroke  />
+            <path>
+                <move x="60" y="40"/>
+                <line x="0" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Solid Circle Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="20" y="40"/>
+                <line x="80" y="40" />
+            </path>
+            <stroke  />
+            <ellipse x="0" y="30" h="20" w="20" />
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Solid Circle Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="60" y="40"/>
+                <line x="0" y="40" />
+            </path>
+            <stroke  />
+            <ellipse x="60" y="30" h="20" w="20" />
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Big Tip Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="10" y="40"/>
+                <line x="70" y="40" />
+                <move x="60" y="20"/>
+                <line x="80" y="40" />
+                <line x="60" y="60" />
+                <line x="70" y="40" />
+                <close/>
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Big Tip Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="20" y="40"/>
+                <line x="80" y="40" />
+                <move x="30" y="20"/>
+                <line x="10" y="40" />
+                <line x="30" y="60" />
+                <line x="20" y="40" />
+                <close/>
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Big Empty Tip Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="60" y="20"/>
+                <line x="80" y="40" />
+                <line x="60" y="60" />
+                <line x="70" y="40" />
+                <close/>
+            </path>
+            <stroke  />
+            <path>
+                <move x="10" y="40"/>
+                <line x="70" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name=" Big Empty Tip Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="30" y="20"/>
+                <line x="10" y="40" />
+                <line x="30" y="60" />
+                <line x="20" y="40" />
+                <close/>
+            </path>
+            <stroke />
+            <path>
+                <move x="20" y="40"/>
+                <line x="80" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Small Tip Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="10" y="40"/>
+                <line x="70" y="40" />
+                <move x="65" y="30"/>
+                <line x="80" y="40" />
+                <line x="65" y="50" />
+                <line x="70" y="40" />
+                <close/>
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Small Tip Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="20" y="40"/>
+                <line x="80" y="40" />
+                <move x="25" y="30"/>
+                <line x="10" y="40" />
+                <line x="25" y="50" />
+                <line x="20" y="40" />
+                <close/>
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Small Empty Tip Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="65" y="30"/>
+                <line x="80" y="40" />
+                <line x="65" y="50" />
+                <line x="70" y="40" />
+                <close/>
+            </path>
+            <stroke />
+            <path>
+                <move x="10" y="40"/>
+                <line x="70" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+
+    <shape name="Small Empty Tip Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="25" y="30"/>
+                <line x="10" y="40" />
+                <line x="25" y="50" />
+                <line x="20" y="40" />
+                <close/>
+            </path>
+            <stroke />
+            <path>
+                <move x="20" y="40"/>
+                <line x="80" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Single Up Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="10" y="40"/>
+                <line x="70" y="40" />
+                <move x="20" y="30"/>
+                <line x="10" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Single Up Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="10" y="40"/>
+                <line x="70" y="40" />
+                <move x="60" y="30"/>
+                <line x="70" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Single Upward Triangle Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="10" y="40"/>
+                <line x="70" y="40" />
+                <move x="10" y="40"/>
+                <line x="20" y="30" />
+                <line x="20" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Single Upward Triangle Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="10" y="40"/>
+                <line x="70" y="40" />
+                <move x="70" y="40"/>
+                <line x="60" y="30" />
+                <line x="60" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+
+    <shape name=" Empty Single Upward Triangle Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="10" y="40"/>
+                <line x="20" y="30" />
+                <line x="20" y="40" />
+                <close />
+            </path>
+            <stroke />
+            <path>
+                <move x="10" y="40"/>
+                <line x="70" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name=" Empty Single Upward Triangle Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="70" y="40"/>
+                <line x="60" y="30" />
+                <line x="60" y="40" />
+                <close />
+            </path>
+            <stroke />
+            <path>
+                <move x="10" y="40"/>
+                <line x="70" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Empty Square Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="0" y="40"/>
+                <line x="0" y="30" />
+                <line x="20" y="30" />
+                <line x="20" y="50" />
+                <line x="0" y="50" />
+                <close />
+            </path>
+            <stroke />
+            <path>
+                <move x="20" y="40"/>
+                <line x="80" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Empty Square Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="80" y="40"/>
+                <line x="80" y="30" />
+                <line x="60" y="30" />
+                <line x="60" y="50" />
+                <line x="80" y="50" />
+                <close />
+            </path>
+            <stroke />
+            <path>
+                <move x="0" y="40"/>
+                <line x="60" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Fork Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="0" y="40"/>
+                <line x="80" y="40" />
+            </path>
+            <stroke />
+            <path>
+                <move x="10" y="30"/>
+                <line x="30" y="50" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Fork Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="0" y="40"/>
+                <line x="80" y="40" />
+            </path>
+            <stroke />
+            <path>
+                <move x="70" y="30"/>
+                <line x="50" y="50" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Ten branch Fork Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="0" y="40"/>
+                <line x="80" y="40" />
+            </path>
+            <stroke />
+            <path>
+                <move x="10" y="30"/>
+                <line x="30" y="50" />
+                <move x="10" y="50"/>
+                <line x="30" y="30" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Ten branch Fork Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="0" y="40"/>
+                <line x="80" y="40" />
+            </path>
+            <stroke />
+            <path>
+                <move x="70" y="30"/>
+                <line x="50" y="50" />
+                <move x="70" y="50"/>
+                <line x="50" y="30" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Ten Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="0" y="40"/>
+                <line x="80" y="40" />
+                <move x="10" y="30"/>
+                <line x="10" y="50" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Ten Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="0" y="40"/>
+                <line x="80" y="40" />
+                <move x="70" y="30"/>
+                <line x="70" y="50" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Two Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="0" y="40"/>
+                <line x="80" y="40" />
+                <move x="10" y="30"/>
+                <line x="10" y="50" />
+                <move x="20" y="30"/>
+                <line x="20" y="50" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Two Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="0" y="40"/>
+                <line x="80" y="40" />
+                <move x="70" y="30"/>
+                <line x="70" y="50" />
+                <move x="60" y="30"/>
+                <line x="60" y="50" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="To Fork Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="0" y="40"/>
+                <line x="80" y="40" />
+                <move x="15" y="40"/>
+                <line x="0" y="30" />
+                <move x="15" y="40"/>
+                <line x="0" y="50" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="To Fork Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <path>
+                <move x="0" y="40"/>
+                <line x="80" y="40" />
+                <move x="65" y="40"/>
+                <line x="80" y="30" />
+                <move x="65" y="40"/>
+                <line x="80" y="50" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Disable Left Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <ellipse x="0" y="30" h="20" w="20" />
+            <stroke  />
+            <path>
+                <move x="10" y="50"/>
+                <line x="10" y="30" />
+            </path>
+            <stroke  />
+            <path>
+                <move x="0" y="40"/>
+                <line x="80" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+    <shape name="Disable Right Arrow" h="80" w="80" aspect="variable" strokewidth="inherit">
+        <connections>
+            <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+            <constraint x="0.5" y="1" perimeter="0" name="S"/>
+        </connections>
+        <background >
+            <ellipse x="60" y="30" h="20" w="20" />
+            <stroke  />
+            <path>
+                <move x="70" y="50"/>
+                <line x="70" y="30" />
+            </path>
+            <stroke  />
+            <path>
+                <move x="0" y="40"/>
+                <line x="80" y="40" />
+            </path>
+        </background>
+        <foreground>
+            <fillstroke />
+        </foreground>
+    </shape>
+
+</shapes>
